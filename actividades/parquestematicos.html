@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Parques Tematicos</title>
+	<link rel="stylesheet" type="text/css" href="../estilo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<meta name="application-name" content="Turismo Arg">
+	<meta name="author"
+		content="Grupo 5 - 23521 -Python Codo a Codo: Maria Jose, Mario David Gonzalez, Matias y Santiago Gabriel Rossi">
+	<meta name="copyright" content="2023 © Turismo Arg">
+	<meta name="description"
+		content="Sitio web sobre el turismo en las provincias de Jujuy,Misiones,Mendoza y Bariloche.">
+	<meta name="keywords"
+		content="Turismo, Destinos, Actividades, Paquetes Turisticos, A donde ir, Jujuy,Misiones,Mendoza y Bariloche">
+	<meta http-equiv="refresh" content="400">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../scripts/menu_navegacion.js"></script>
+	<script src="../scripts/slider.js"></script>
+	<script src="../json/actividades.json"></script>
+	<script src="../scripts/ultima_actualizacion.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.header_dinamico').load("../carga_ficheros/header_footer.html .fondo");
+			$('.footer_dinamico').load("../carga_ficheros/header_footer.html .footer");
+		});
+	</script>
+</head>
+
+<body>
+	<noscript>Necesitas tener activado JavaScript para ver el sitio web.</noscript>
+
+	<!-- Menú de navegación-->
+	<div class="header_dinamico"></div>
+
+	<main>
+		<section class="main">
+			<header class="header2">
+				<h1 class="nombre_pagina">Parques temáticos</h1>
+			</header>
+		</section>
+
+		<div class="migasdepan">
+			<ul class="migasdepan">
+				<li><a href="../index.html" title="Inicio">Inicio</a></li>
+				<li><a href="../actividades.html" title="Actividades">Actividades</a></li>
+				<li><a href="../actividades/parquestematicos.html" title="Parques temáticos">Parques temáticos</a></li>
+			</ul>
+		</div>
+
+
+		<section class="presentacion_categoria1">
+
+			<p>
+				Disfruta de tus <em>vacaciones</em> en pareja, con amigos o en familia. Si necesitas un descanso y
+				quieres pasar las vacaciones
+				con tus hijos, es muy probable que te interese saber cuáles son los parques temático que ofrecen
+				<em>actividades</em> para toda la familia y que te harán disfrutar aún más de tu estancia.
+				<br><br>
+				En esta sección hemos recopilado los mejores <em>parques temáticos</em>, caracterizados por ofrecer
+				entretenimiento
+				familiar y una agradable agenda de eventos para que los más pequeños no se aburran durante el viaje.
+				Elige entre parque dedicado
+				a los dinosaurios, parque de atracciones, parque acuático, parques zoológicos y parques botánicos.
+				<br><br>
+				Escoge tu parque temático también en función del horario de apertura, ya que unos abren durante el día y
+				otros por la tarde,
+				y de la climatología del día, ya que algunos parques de ocio son más interesantes hacer en días soleados
+				y otros cuando el clima es más fresco.
+				<br><br>
+
+				<b>Jujuy</b>
+				<br><br>
+				<b>Parque temático El Rey de los Andes:</b> este parque temático está ubicado en la ciudad de Tilcara, y
+				ofrece
+				atracciones para toda la familia, incluyendo montañas rusas, juegos infantiles y un zoológico.
+				<br><br>
+				<b>Parque temático La Isla de los Monos:</b> este parque temático está ubicado en la ciudad de
+				Humahuaca, y
+				ofrece atracciones para toda la familia, incluyendo una isla artificial con monos, un zoológico y un
+				parque acuático.
+				<br><br>
+
+				<B>Misiones</B>
+				<br><br>
+				<b>Parque temático La Selva:</b> este parque temático está ubicado en la ciudad de Puerto Iguazú, y
+				ofrece
+				atracciones para toda la familia, incluyendo un zoológico, un acuario y un parque acuático.
+				<br><br>
+				<B>Parque temático Yacarelandia:</B> este parque temático está ubicado en la ciudad de Puerto Iguazú, y
+				ofrece
+				atracciones para toda la familia, incluyendo un zoológico, un acuario y un parque acuático.
+				<br><br>
+
+				<b>Mendoza</b>
+				<br><br>
+				<b>Parque temático Terra Mágica Andina:</b> este parque temático está ubicado en la ciudad de Mendoza, y
+				ofrece
+				atracciones para toda la familia, incluyendo montañas rusas, juegos infantiles y un zoológico.
+				<br><br>
+				<b>Parque temático Temaiken:</b> este parque temático está ubicado en la ciudad de Luján de Cuyo, y
+				ofrece
+				atracciones para toda la familia, incluyendo un zoológico, un acuario y un jardín botánico.
+				<br><br>
+
+				<b>Bariloche</b>
+				<br><br>
+				<b>Parque temático Parque Llao Llao:</b> este parque temático está ubicado en la ciudad de Bariloche, y
+				ofrece
+				atracciones para toda la familia, incluyendo un zoológico, un acuario y un parque acuático.
+				<br><br>
+				<b>Parque temático Parque de la Patagonia:</b> este parque temático está ubicado en la ciudad de
+				Bariloche, y
+				ofrece atracciones para toda la familia, incluyendo un zoológico, un acuario y un parque acuático.
+				<br><br>
+				<em><b>Consulta las novedades de cada parque antes de ir ya que la mayoría de ellos ofrecen espectáculos
+						y
+						actividades nuevas constantemente.
+						Puedes ver en dónde están ubicados cada uno y su respectiva información haciencdo clic
+					</b></em><a href="#abajo">aquí</a>.
+			</p>
+
+			<div class="contenedor-slider">
+				<div class="slider" id="slider">
+					<section class="seccion-slider">
+						<h3>Parques temáticos</h3>
+						<img src="../imagenes/actividades/parques/jujuy.jpg" alt="Jujuy" class="slider-imagen">
+					</section>
+					<section class="seccion-slider">
+						<h3>Parques temáticos</h3>
+						<img src="../imagenes/actividades/parques/misiones.jpg" alt="Misiones" class="slider-imagen">
+					</section>
+					<section class="seccion-slider">
+						<h3>Parques temáticos</h3>
+						<img src="../imagenes/actividades/parques/mendoza.jpg" alt="Mendoza" class="slider-imagen">
+					</section>
+					<section class="seccion-slider">
+						<h3>Parques temáticos</h3>
+						<img src="../imagenes/actividades/parques/bariloche.jpg" alt="Bariloche" class="slider-imagen">
+					</section>
+					<section class="seccion-slider">
+						<h3>Parques temáticos</h3>
+						<img src="../imagenes/actividades/parques/parque_temetico.jpg" alt="Parques"
+							class="slider-imagen">
+					</section>
+				</div>
+				<div class="boton-slider boton-derecho" id="boton-derecho"><img src="../imagenes/iconos/flecha-der.svg"
+						alt="Flecha Derecha"></div>
+				<div class="boton-slider boton-izquierdo" id="boton-izquierdo"><img
+						src="../imagenes/iconos/flecha-izq.svg" alt="Flecha Izquierda"></div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Línea de separación de secciones -->
+	<hr>
+
+	<!-- Sección de galería de imágenes -->
+	<section class="contenedor">
+		<h2>Visita nuestros parques temáticos</h2>
+		<section class="contenedor_int" id="abajo">
+			<section class="mapa1">
+				<h3 class="h3enlaces">Cómo llegar</h3>
+				<hr class="hrenlaces">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232899.72389180737!2d-65.60093122342973!3d-24.204741661419007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f4e8bd7a62f%3A0x315150e057f6e499!2sSan%20Salvador%20de%20Jujuy%2C%20Jujuy!5e0!3m2!1ses-419!2sar!4v1696787588100!5m2!1ses-419!2sar"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.269771917008!2d-54.592070825517574!3d-25.595950439476812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f692185ace3481%3A0xed27fbe312c36638!2sParque%20Tem%C3%A1tico%20Selva%20Viva!5e0!3m2!1ses-419!2sar!4v1696787659978!5m2!1ses-419!2sar"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.108134056898!2d-68.8460235251494!3d-32.868858267962466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08ef040615b7%3A0x44ff247c04fd8fb!2sTierra%20Magica!5e0!3m2!1ses-419!2sar!4v1696787734619!5m2!1ses-419!2sar"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192580.77399981822!2d-71.72013562778318!3d-41.04549781942448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a750fd29c2faf%3A0xf430996d462922bd!2sParque%20Nahuelito!5e0!3m2!1ses-419!2sar!4v1696787861244!5m2!1ses-419!2sar"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+
+			<section class="masinfo">
+				<h3 class="h3enlaces">Selecciona los mapas de los Parques temáticos</h3>
+				<hr class="hrenlaces">
+				<p>Estos mapas se pueden encontrar en línea o en las oficinas de turismo de las respectivas provincias.
+					También hay una serie de tours que te llevan a los parques.
+					<br><br>
+					Seleciona el mapa para conocer los parques de preferincia para tu proximo viaje, en cual
+					encontraras toda la información correspondiente a cada viaje.
+				</p>
+				<section class="cajainfopt">
+				</section>
+			</section>
+		</section>
+
+		<section class="seccion_compartir">
+			<section>
+				<h3 class="h3enlaces">Compartir</h3>
+				<hr class="hrenlacescompartir">
+
+				<div>
+
+					<a href="https://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+						target="_blank">
+						<img src="https://static.addtoany.com/buttons/facebook.svg" width="32" height="32"
+							style="background-color:rgb(24, 119, 242);" alt="Iconos redes sociales"></a>
+					<a href="https://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+						target="_blank">
+						<img src="https://static.addtoany.com/buttons/twitter.svg" width="32" height="32"
+							style="background-color:rgb(29, 155, 240);" alt="Iconos redes sociales"></a>
+					<a href="https://www.addtoany.com/add_to/pinterest?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+						target="_blank">
+						<img src="https://static.addtoany.com/buttons/pinterest.svg" width="32" height="32"
+							style="background-color:rgb(189, 8, 28);" alt="Iconos redes sociales"></a>
+					<a href="https://www.addtoany.com/add_to/whatsapp?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+						target="_blank">
+						<img src="https://static.addtoany.com/buttons/whatsapp.svg" width="32" height="32"
+							style="background-color:rgb(18, 175, 10);" alt="Iconos redes sociales"></a>
+					<a href="https://www.addtoany.com/add_to/email?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+						target="_blank">
+						<img src="https://static.addtoany.com/buttons/email.svg" width="32" height="32"
+							style="background-color:rgb(1, 102, 255);" alt="Iconos redes sociales"></a>
+
+					<div id="visible_a">
+						<img src="https://static.addtoany.com/buttons/a2a.svg" width="32" height="32"
+							style="background-color: rgb(1, 102, 255);" alt="Iconos redes sociales">
+						<div id="a2apage_mini_services">
+
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/linkedin.svg" width="32" height="32"
+									style="background-color:rgb(0, 123, 181);" alt="Iconos redes sociales">Linkedin</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/telegram?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/telegram.svg" width="32" height="32"
+									style="background-color:rgb(44, 165, 224);" alt="Iconos redes sociales">Telegram</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/reddit.svg" width="32" height="32"
+									style="background-color:rgb(255, 69, 0);" alt="Iconos redes sociales">Reddit</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/trello?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/trello.svg" width="32" height="32"
+									style="background-color:rgb(0,117,197)" alt="Iconos redes sociales">Trello</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/sms?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/sms.svg" width="32" height="32"
+									style="background-color:rgb(71, 198, 50);" alt="Iconos redes sociales">SMS</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/skype?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/skype.svg" width="32" height="32"
+									style="background-color:rgb(0,173,247)" alt="Iconos redes sociales">Skype</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/tumblr?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/tumblr.svg" width="32" height="32"
+									style="background-color:rgb(53, 70, 92);" alt="Iconos redes sociales">Tumblr</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/facebook_messenger?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/facebook_messenger.svg" width="32"
+									height="32" style="background-color:rgb(0, 132, 255);"
+									alt="Iconos redes sociales">Messenger</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/copy_link?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/link.svg" width="32" height="32"
+									style="background-color:rgb(42, 42, 42);" alt="Iconos redes sociales">Copiar
+								link</a>
+							<a class="a2a_i"
+								href="https://www.addtoany.com/add_to/snapchat?linkurl=http%3A%2F%2F127.0.0.1%3A5500%2Factividades%2Fparquestematicos.html&amp;linkname=Gran%20Canaria%20Insider"
+								target="_blank">
+								<img src="https://static.addtoany.com/buttons/snapchat.svg" width="32" height="32"
+									style="background-color:rgb(244,247,0)" alt="Iconos redes sociales">Snapchat</a>
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</section>
+	</section>
+
+	<!-- Fecha de actualización del JSON -->
+	<div id="actualizacion"></div>
+
+	<!-- Pie de página del sitio web -->
+	<div class="footer_dinamico"></div>
+</body>
+
+</html>

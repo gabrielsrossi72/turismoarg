@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Paquetes</title>
+	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<meta name="application-name" content="Turismo Arg">
+	<meta name="author"
+		content="Grupo 5 - 23521 -Python Codo a Codo: Maria Jose, Mario David Gonzalez, Matias y Santiago Gabriel Rossi">
+	<meta name="copyright" content="2023 © Turismo Arg"/>
+	<meta name="description"
+		content="Sitio web sobre el turismo en las provincias de Jujuy,Misiones,Mendoza y Bariloche.">
+	<meta name="keywords"
+		content="Turismo, Destinos, Actividades, Paquetes Turisticos, A donde ir, Jujuy,Misiones,Mendoza y Bariloche">
+	<meta http-equiv="refresh" content="400">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./scripts/menu_navegacion.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.header_dinamico').load("./carga_ficheros/header_footer2.html .fondo");
+			$('.footer_dinamico').load("./carga_ficheros/header_footer2.html .footer");
+		});
+	</script>
+</head>
+
+<body>
+	<noscript>Necesitas tener activado JavaScript para ver el sitio web.</noscript>
+	<!-- Menú de navegación-->
+	<div class="header_dinamico"></div>
+
+	<!-- Sección principal-->
+	<main>
+		<section class="main">
+			<header class="header2">
+				<div class="nnav">
+					<div class="catras">
+						<h1 class="nombre_pagina">Paquetes</h1>
+					</div>
+
+					<div class="cenlaces">
+						<ul class="menu2">
+							<li><a href="./paquetes/jujuy.html">Jujuy</a></li>
+							<li><a href="./paquetes/misiones.html">Misiones</a></li>
+							<li><a href="./paquetes/mendoza.html">Mendoza</a></li>
+							<li><a href="./paquetes/bariloche.html">Bariloche</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+		</section>
+
+		<section class="migasdepan_sinespacio">
+			<ul class="migasdepan">
+				<li><a href="./index.html" title="Inicio">Inicio</a></li>
+				<li><a href="./paquetes.html" title="Paquetes">Paquetes</a></li>
+			</ul>
+		</section>
+	</main>
+
+
+	<section class="presentacion_columna">
+		<section class="presentacion">
+			<p>
+				<strong>Argentina</strong> es un país con una gran diversidad de paisajes y culturas, lo que lo
+				convierte en un destino
+				turístico ideal para todo tipo de viajeros. En este relato, te contaré por qué deberías visitar
+				<strong>Jujuy,
+					Misiones, Mendoza y Bariloche</strong>, cuatro provincias que ofrecen una experiencia única y
+				memorable.
+				<br><br>
+				<strong>Jujuy: la tierra de los colores</strong><br>
+				Jujuy es una provincia del norte argentino conocida por sus paisajes coloridos. Aquí podrás visitar el
+				Parque Nacional Los Cardones, donde podrás admirar las formaciones rocosas de colores rojo, rosa y
+				naranja. También puedes visitar la Quebrada de Humahuaca, una serie de valles y montañas que albergan
+				algunos de los paisajes más impresionantes de Argentina.
+				<br><br>
+				<strong>Misiones: la tierra de la selva</strong><br>
+				Misiones es una provincia del noreste argentino que se encuentra en la frontera con Brasil y Paraguay.
+				Aquí podrás visitar el Parque Nacional Iguazú, hogar de las Cataratas del Iguazú, una de las maravillas
+				naturales del mundo. También puedes visitar el Parque Nacional Iguazú del lado brasileño, donde podrás
+				disfrutar de una vista diferente de las cataratas.
+				<br><br>
+				<strong>Mendoza: la tierra del vino</strong><br>
+				Mendoza es una provincia del oeste argentino conocida por su producción de vino. Aquí podrás visitar las
+				bodegas de Mendoza, donde podrás aprender sobre el proceso de elaboración del vino y degustar sus
+				deliciosos productos. También puedes practicar deportes al aire libre, como el senderismo, el ciclismo y
+				el montañismo.
+
+			</p>
+		</section>
+		<section class="imagenes_horizontales">
+			<img class="img_presentacion21" src="./imagenes/paquetes/pressentacion_paquete.jpg" alt="Paquetes">
+			<img class="img_presentacion2" src="./imagenes/paquetes/paquetes_presentacion1.jpg" alt="Paquetes">
+		</section>
+	</section>
+
+
+	<hr>
+
+	<section class="contenedor2">
+		<h2>Selecciona el paquete y destino de tu preferencia</h2>
+		<div class="contenedor-grid2">
+			<div>
+				<p>Salinas Grandes Jujuy</p>
+				<a href="./paquetes/jujuy.html"> <img class="img2" src="./imagenes/paquetes/jujuy/salinas.jpg"
+						alt="Salinas Grandes"></a>
+			</div>
+			<div>
+				<p>Cataratas Del Iguazú</p>
+				<a href="./paquetes/misiones.html"> <img class="img2" src="./imagenes/paquetes/misiones/cataratas.jpg"
+						alt="Papas arrugadas"></a>
+			</div>
+			<div>
+				<p>Laguna Del Inca</p>
+				<a href="./paquetes/mendoza.html"><img class="img2" src="./imagenes/paquetes/mendoza/Laguna_del_Inca.jpg"
+						alt="Suspiros de Moya"></a>
+			</div>
+			<div>
+				<p>Camino De Los Site Lagos</p>
+				<a href="./paquetes/bariloche.html"><img class="img2" src="./imagenes/paquetes/bariloche/Lago_Escondido.jpg"
+						alt="Camino De Los Siete Lagos"></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Pie de página del sitio web -->
+	<div class="footer_dinamico"></div>
+</body>
+
+</html>

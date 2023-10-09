@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Destinos</title>
+	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<meta name="application-name" content="Gran Canaria Insider - DAW1">
+	<meta name="author" content="Grupo 4: Ariadna Del Pino Domínguez, Roman Brendler y Danilo Rivero Pérez">
+	<meta name="copyright" content="2021 © Gran Canaria Insider"/>
+	<meta name="description" content="Sitio web sobre el turismo en la isla de Gran Canaria con las diferentes 
+			experiencias que no se pueden perder.">
+	<meta name="keywords" content="Turismo, Gastronomía, Actividades, Artesanía, A donde ir, Gran Canaria">
+	<meta http-equiv="refresh" content="400">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./scripts/menu_navegacion.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.header_dinamico').load("./carga_ficheros/header_footer2.html .fondo");
+			$('.footer_dinamico').load("./carga_ficheros/header_footer2.html .footer");
+		});
+	</script>
+
+</head>
+
+<body>
+	<noscript>Necesitas tener activado JavaScript para ver el sitio web.</noscript>
+	<!-- Menú de navegación-->
+	<div class="header_dinamico"></div>
+
+
+	<!-- Sección principal-->
+	<main>
+		<section class="main">
+			<header class="header2">
+				<div class="nnav">
+					<div class="catras">
+						<h1 class="nombre_pagina">Destinos</h1>
+					</div>
+
+					<div class="cenlaces">
+						<ul class="menu2">
+							<li><a href="./destinos/jujuy.html">Jujuy</a></li>
+							<li><a href="./destinos/misiones.html">Misiones</a></li>
+							<li><a href="./destinos/mendoza.html">Mendoza</a></li>
+							<li><a href="./destinos/bariloche.html">Bariloche</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+		</section>
+
+		<section class="migasdepan_sinespacio">
+			<ul class="migasdepan">
+				<li><a href="index.html" title="Inicio">Inicio</a></li>
+				<li><a href="destinos.html" title="Artesanía">Destinos</a></li>
+			</ul>
+		</section>
+	</main>
+
+
+	<section class="presentacion">
+
+		<p>
+			<img class="img_presentacion" src="./imagenes/destinos/argentina01.png" alt="Destinos">
+			Argentina es un país con una gran diversidad de paisajes y culturas, lo que lo convierte en un destino
+			turístico ideal para todo tipo de viajeros. En este relato, te contaré por qué deberías visitar Jujuy,
+			Misiones, Mendoza y Bariloche, cuatro provincias que ofrecen una experiencia única y memorable.
+			<br><br>
+			<strong>Jujuy: la tierra de los colores</strong>
+			Jujuy es una provincia del norte argentino conocida por sus paisajes coloridos. Aquí podrás visitar el
+			Parque Nacional Los Cardones, donde podrás admirar las formaciones rocosas de colores rojo, rosa y naranja.
+			También puedes visitar la Quebrada de Humahuaca, una serie de valles y montañas que albergan algunos de los
+			paisajes más impresionantes de Argentina.
+			<br><br>
+			<strong>Misiones: la tierra de la selva</strong>
+			Misiones es una provincia del noreste argentino que se encuentra en la frontera con Brasil y Paraguay. Aquí
+			podrás visitar el Parque Nacional Iguazú, hogar de las Cataratas del Iguazú, una de las maravillas naturales
+			del mundo. También puedes visitar el Parque Nacional Iguazú del lado brasileño, donde podrás disfrutar de
+			una vista diferente de las cataratas.
+			<br><br>
+			<strong>Mendoza: la tierra del vino</strong>
+			Mendoza es una provincia del oeste argentino conocida por su producción de vino. Aquí podrás visitar las
+			bodegas de Mendoza, donde podrás aprender sobre el proceso de elaboración del vino y degustar sus deliciosos
+			productos. También puedes practicar deportes al aire libre, como el senderismo, el ciclismo y el montañismo.
+			<br><br>
+			<strong>Bariloche: la tierra de los lagos</strong>
+			Bariloche es una ciudad ubicada en la Patagonia argentina. Es un destino popular para los amantes de la
+			naturaleza, ya que ofrece una gran variedad de actividades al aire libre, como el esquí, el snowboard, el
+			senderismo, el rafting y el kayak. También puedes visitar el Parque Nacional Nahuel Huapi, donde podrás
+			disfrutar de la belleza natural de la Patagonia.
+			<br><br>
+			<strong>Conclusiones</strong>
+			Jujuy, Misiones, Mendoza y Bariloche son cuatro provincias argentinas que ofrecen una experiencia única y
+			memorable. Si estás buscando un destino turístico que te ofrezca una combinación de belleza natural, cultura
+			y actividades al aire libre, estas provincias son la opción perfecta.
+		</p>
+
+	</section>
+
+	<hr>
+
+	<section class="contenedor">
+		<h2>Lugares populares de nuestros destinos</h2>
+		<div class="contenedor-grid">
+			<div>
+				<p>Jujuy</p>
+				<a href="./destinos/jujuy.html"> <img class="img" src="./imagenes/destinos/jujuy.jpg" alt="Jujuy"></a>
+			</div>
+			<div>
+				<p>Misiones</p>
+				<a href="./destinos/misiones.html"><img class="img" src="./imagenes/destinos/misiones.jpg"
+						alt="Misiones"></a>
+			</div>
+			<div>
+				<p>Mendoza</p>
+				<a href="./destinos/mendoza.html"><img class="img" src="./imagenes/destinos/mendoza.jpg"
+						alt="Mendoza"></a>
+			</div>
+			<div>
+				<p>Bariloche</p>
+				<a href="./destinos/bariloche.html"><img class="img" src="./imagenes/destinos/bariloche.jpg"
+						alt="Bariloche"></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Pie de página del sitio web -->
+	<div class="footer_dinamico"></div>
+</body>
+
+</html>

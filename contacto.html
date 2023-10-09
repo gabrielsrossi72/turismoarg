@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<meta name="author"
+		content="Grupo 5 - 23521 -Python Codo a Codo: Maria Jose, Mario David Gonzalez, Matias y Santiago Gabriel Rossi">
+	<meta name="copyright" content="2023 © Turismo Arg">
+	<meta name="description"
+		content="Sitio web sobre el turismo en las provincias de Jujuy,Misiones,Mendoza y Bariloche.">
+	<meta name="keywords"
+		content="Turismo, Destinos, Actividades, Paquetes Turisticos, A donde ir, Jujuy,Misiones,Mendoza y Bariloche">
+	<meta http-equiv="refresh" content="400">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- JQueryUI -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+	<script src="./scripts/menu_navegacion.js"></script>
+	<script src="./scripts/validacion.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.header_dinamico').load("./carga_ficheros/header_footer2.html .fondo");
+			$('.footer_dinamico').load("./carga_ficheros/header_footer2.html .footer");
+		});
+	</script>
+
+</head>
+
+<body>
+	<noscript>Necesitas tener activado JavaScript para ver el sitio web.</noscript>
+	<!-- Menú de navegación-->
+	<div class="header_dinamico"></div>
+
+	<main>
+		<div class="migasdepan">
+			<ul class="migasdepan">
+				<li><a href="./index.html" title="Inicio">Inicio</a></li>
+				<li><a href="./contacto.html" title="">Contacto</a></li>
+			</ul>
+		</div>
+	</main>
+
+
+	<section>
+
+		<h1 id="pagn">Contacta con Turismo Arg</h1>
+		<hr id="hrpagn">
+
+		<div class="contenedor_formulario">
+			<form id="formulario_contacto">
+
+				<div class="form-control">
+					<label class="etiqueta" for="select_contacto">El mensaje es sobre</label>
+					<select name="seleccion_asunto" id="select_contacto">
+						<option value="">Por favor, escoja uno de la lista...</option>
+						<option value="1">Destinos/Paquetes</option>
+						<option value="2">Quejas generales</option>
+						<option value="3">Agradecimientos generales</option>
+						<option value="4">Sugerencias</option>
+						<option value="5">Otros</option>
+					</select>
+					<i id="prueba1" class="fas fa-check-circle"></i>
+					<i id="prueba2" class="fas fa-exclamation-circle"></i>
+					<small>Mensaje de error</small>
+				</div>
+
+				<div class="form-control">
+					<label class="etiqueta" for="comentario1">Comentario</label>
+					<textarea name="comentario" id="comentario1" onKeyDown="cuenta()" onKeyUp="cuenta()"></textarea>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<div id="em_com">
+						<em>Comentario limitado a mínimo 2 caracteres y máximo 250 caracteres, restante: <strong
+								id="strong">250</strong></em>
+					</div>
+					<small>Mensaje de error</small>
+				</div>
+
+				<div class="form-control">
+					<label class="etiqueta" for="nombreContacto">Nombre y apellidos</label>
+					<input type="text" id="nombreContacto" name="nombreyapellidos">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Mensaje de error</small>
+				</div>
+
+				<div class="form-control">
+					<label class="etiqueta" for="emailContacto">Email de contacto</label>
+					<input id="emailContacto" type="email" name="email">
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Mensaje de error</small>
+				</div>
+
+				<span id="texto-span">
+					Turismo Arg es una sitio web desarrolado como un proyecto de turismo especializada en la organización de viajes a Argentina.
+					Ofrecemos una amplia gama de paquetes turísticos, desde viajes de aventura hasta viajes de lujo.
+					Nuestro objetivo es ofrecer a nuestros clientes una experiencia única y memorable en Argentina.
+					<br><br>
+
+					<b>Nuestros valores</b>
+					<br><br>
+
+					Nos comprometemos a ofrecer a nuestros clientes un servicio de alta calidad. Creemos que el turismo
+					debe ser una experiencia positiva y enriquecedora para todos los involucrados. Por eso, nos
+					esforzamos por ofrecer a nuestros clientes un servicio personalizado y adaptado a sus necesidades.
+					<br><br>
+
+					Nuestro equipo está formado por profesionales experimentados y apasionados del turismo. Estamos
+					comprometidos a ofrecer a nuestros clientes la mejor experiencia posible en Argentina.
+					<br><br>
+
+					<b>Contacto</b>
+
+					Si está interesado en obtener más información sobre nuestros servicios, no dude en ponerse en
+					contacto con nosotros. Estaremos encantados de ayudarle a planificar su viaje a Argentina.
+					<br><br>
+
+					<b>Referencias</b>
+					<br><br>
+
+					Codo a Codo: Curso de Python-Front End 2023
+					GitHub: Proyecto de sitio web
+				</span>
+
+				<input type="submit" value="Enviar" name="enviar" id="enviar_form">
+			</form>
+		</div>
+	</section>
+
+	<div id="dialog" title="Email enviado">
+		<p><img src="./imagenes/iconos/checkmark-done-outline.svg" alt="Icono confirmacion" id="check_icon"></p>
+		<p>El correo se ha enviado correctamente. <br> ¡Muchas gracias por tu opinión!</p>
+	</div>
+
+	<!-- Pie de página del sitio web -->
+	<div class="footer_dinamico"></div>
+</body>
+
+</html>

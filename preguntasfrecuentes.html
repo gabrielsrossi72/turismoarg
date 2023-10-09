@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Preguntas Frecuentes</title>
+	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<meta name="author"
+		content="Grupo 5 - 23521 -Python Codo a Codo: Maria Jose, Mario David Gonzalez, Matias y Santiago Gabriel Rossi">
+	<meta name="copyright" content="2023 © Turismo Arg">
+	<meta name="description"
+		content="Sitio web sobre el turismo en las provincias de Jujuy,Misiones,Mendoza y Bariloche.">
+	<meta name="keywords"
+		content="Turismo, Destinos, Actividades, Paquetes Turisticos, A donde ir, Jujuy,Misiones,Mendoza y Bariloche">
+	<meta http-equiv="refresh" content="400">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./scripts/menu_navegacion.js"></script>
+	<script src="../json/preguntasfrec.json"></script>
+	<script src="./scripts/ultima_actualizacion.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.header_dinamico').load("./carga_ficheros/header_footer2.html .fondo");
+			$('.footer_dinamico').load("./carga_ficheros/header_footer2.html .footer");
+		});
+	</script>
+</head>
+
+<body>
+	<noscript>Necesitas tener activado JavaScript para ver el sitio web.</noscript>
+
+	<!-- Menú de navegación-->
+	<div class="header_dinamico">
+
+
+	</div>
+	<main>
+		<div class="migasdepan">
+			<ul class="migasdepan">
+				<li><a href="./index.html" title="Inicio">Inicio</a></li>
+				<li><a href="./preguntasfrecuentes.html" title="">Preguntas Frecuentes</a></li>
+			</ul>
+		</div>
+	</main>
+
+
+	<section>
+		<h1 id="pagn">Preguntas Frecuentes</h1>
+		<hr id="hrpagn">
+		<section class="contenedor_preguntas">
+			<section id="seccion_preguntas">
+				<ul id="pregfrec"></ul>
+			</section>
+			<hr id="hrpreg">
+			<section id="seccion_respuestas"></section>
+			<p>
+				<b>¿Qué es Turismo Arg?</b>
+				<br><br>
+
+				Turismo Arg es una empresa de turismo especializada en la organización de viajes a Argentina. Ofrecemos
+				una amplia gama de paquetes turísticos, desde viajes de aventura hasta viajes de lujo. Nuestro objetivo
+				es ofrecer a nuestros clientes una experiencia única y memorable en Argentina.
+				<br><br>
+
+				<b>¿Cuáles son los destinos que ofrece Turismo Arg?</b>
+				<br><br>
+
+				<b>Turismo Arg ofrece paquetes turísticos a las siguientes provincias de Argentina:</b>
+				<br></br>
+
+				<li><b>Jujuy:</b> conocida por sus paisajes naturales, su cultura precolombina y su gastronomía.</li>
+				<br><br>
+				<li><b>Misiones:</b> conocida por sus impresionantes cataratas, su naturaleza exuberante y su rica historia.</li>
+				<br><br>
+				<li><b>Mendoza:</b> conocida por sus vinos de alta calidad, su naturaleza imponente y su clima templado.</li>
+				<br><br>
+				<li><b>Bariloche:</b> conocida por sus lagos cristalinos, sus bosques frondosos y su clima frío.</li>
+				<br><br>
+				<b>¿Qué tipos de paquetes turísticos ofrece Turismo Arg?</b>
+				<br><br>
+
+				Turismo Arg ofrece una amplia gama de paquetes turísticos, desde viajes de aventura hasta viajes de
+				lujo. Nuestros paquetes incluyen:
+				<br><br>
+
+				<b>Viajes de aventura:</b> para los amantes de la naturaleza y la adrenalina.
+				<br><br>
+				<b>Viajes culturales:</b> para descubrir la historia y la cultura de Argentina.
+				<br><br>
+				<b>Viajes de lujo:</b> para disfrutar de lo mejor de Argentina.
+				<br><br>
+				<b>¿Cómo puedo reservar un paquete turístico con Turismo Arg?</b>
+				<br><br>
+
+				<b>Para reservar un paquete turístico con Turismo Arg, puede ponerse en contacto con nosotros a través de
+					nuestro sitio web, por teléfono o por correo electrónico. Nuestro equipo estará encantado de ayudarle a
+					planificar su viaje.</b>
+					<br><br>
+
+				<b>¿Qué incluye un paquete turístico con Turismo Arg?</b>
+				<br><br>
+
+				<b>Los paquetes turísticos de Turismo Arg incluyen los siguientes servicios:</b>
+				<br><br>
+
+				<b>Vuelos: desde su ciudad de origen a Argentina.</b>
+				<br><br>
+				<b>Traslados: desde el aeropuerto a su hotel y viceversa.</b>
+				<br><br>
+				<b>Alojamiento: en hoteles de calidad.</b>
+				<br></br>
+				<b>Actividades: según el itinerario elegido.</b>
+				<br><br>
+				<b>Seguro de viaje: cobertura completa.</b>
+				<br><br>
+				<b>¿Qué debo hacer si tengo alguna pregunta o inquietud?</b>
+				<br><br>
+
+				Si tiene alguna pregunta o inquietud sobre nuestros paquetes turísticos, no dude en ponerse en contacto
+				con nosotros. Nuestro equipo estará encantado de ayudarle.
+				<br><br>
+
+				<b>Preguntas adicionales</b>
+				<br><br>
+
+				Además de las preguntas anteriores, aquí hay algunas preguntas adicionales que los clientes potenciales
+				pueden tener:
+				<br><br>
+
+				<b>¿Qué tipo de itinerarios ofrecen?</b>
+				<br><br>
+				Turismo Arg ofrece una amplia gama de itinerarios, desde viajes de una semana hasta viajes de dos
+				semanas. Nuestros itinerarios están diseñados para adaptarse a las necesidades y intereses de nuestros
+				clientes.
+				<br><br>
+
+				<b>¿Qué tipo de alojamiento ofrecen?</b>
+				<br><br>
+				Turismo Arg ofrece una variedad de opciones de alojamiento, desde hoteles de lujo hasta hostales.
+				Nuestros clientes pueden elegir el alojamiento que mejor se adapte a su presupuesto y preferencias.
+				<br><br>
+				<b>¿Qué tipo de actividades ofrecen?</b>¿Qué tipo de actividades ofrecen?
+				<br><br>
+				Turismo Arg ofrece una variedad de actividades, desde visitas guiadas hasta deportes de aventura.
+				Nuestros clientes pueden elegir las actividades que mejor se adapten a su nivel de interés y condición
+				física.
+				<br><br>
+
+				<b>¿Qué tipo de seguro ofrecen?</b>
+				<br><br>
+				Turismo Arg ofrece un seguro de viaje que cubre los gastos médicos, la pérdida de equipaje y la
+				cancelación del viaje. Nuestros clientes pueden elegir el seguro que mejor se adapte a sus necesidades.
+				<br><br>
+
+				<b>¿Qué tipo de experiencia tienen?</b>
+				<br><br>
+				Turismo Arg es una empresa de turismo con experiencia que ha estado operando durante más de 10 años.
+				Nuestro equipo está formado por profesionales experimentados y apasionados del turismo.
+				<br><br>
+
+				<b>¿Qué tipo de comentarios tienen los clientes?</b>
+				<br><br>
+				Turismo Arg tiene una excelente reputación y ha recibido muchos comentarios positivos de nuestros
+				clientes. Nuestros clientes destacan la calidad de nuestros servicios, la atención al cliente y la
+				experiencia de viaje.</p>
+		</section>
+	</section>
+
+	<!-- Fecha de actualización del JSON -->
+	<div id="actualizacion"></div>
+
+	<!-- Pie de página del sitio web -->
+	<div class="footer_dinamico"></div>
+
+	<!-- <script>
+		//Cargamos dinámicamente las preguntas frecuentes de la página, a través de los datos del fichero JSON.
+		$(document).ready(function () {
+			$.getJSON("https://api-sprint3-daw1.herokuapp.com/preguntasfrecuentes.json", function (datosJSON) {
+				$.each(datosJSON, function () {
+					//Preguntas
+					$('#pregfrec').append("<li><a href='#p" + this['id'] + "'>" + this["pregunta"] + "</a></li>");
+
+					//Respuestas
+					$('#seccion_respuestas').append("<section id='p" + this['id'] + "'>" +
+						'<h4>' + this["pregunta"] + '</h4>' +
+						'<p>' + this["respuesta"] + '</p>' +
+						'<a href=\"#seccion_preguntas\" id=\"a_arriba\">Arriba</a>' +
+						'<hr id=\"hrseccionpf\">' +
+						'</section>');
+				});
+				var ult_act = datosJSON[datosJSON.length - 1].updated_at;
+				ultmod(ult_act);
+			});
+		});
+	</script> -->
+</body>
+
+</html>

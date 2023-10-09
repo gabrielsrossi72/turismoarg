@@ -1,0 +1,126 @@
+<div class="fondo">
+    <header class="header1">
+        <nav class="barra_navegacion">
+            <i onClick="hamburguesa()" class='bx bx-menu'></i>
+            <div class="logo"><a href="../index.html"><img src="../imagenes/logo.png" alt="Logo"></a></div>
+            <div class="menu-hamburguesa">
+                <div class="barra-hamburguesa">
+                    <span class="nombre-sitioweb">Turismo Arg</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="menu">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li>
+                        <a href="../destinos.html">DESTINOS</a>
+                        <i onClick="mostrarSubCategoriasDes()" id="flecha1"
+                            class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="destinos-sub-menu sub-menu">
+                            <li><a href="../destinos/jujuy.html">Jujuy</a></li>
+                            <li><a href="../destinos/misiones.html">Misiones</a></li>
+                            <li><a href="../destinos/mendoza.html">Mendoza</a></li>
+                            <li><a href="../destinos/bariloche.html">Bariloche</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../paquetes.html">PAQUETES</a>
+                        <i onClick="mostrarSubCategoriasPaq()" id="flecha2"
+                            class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="paquetes-sub-menu sub-menu">
+                            <li><a href="../paquetes/jujuy.html">Jujuy</a></li>
+                            <li><a href="../paquetes/misiones.html">Misiones</a></li>
+                            <li><a href="../paquetes/mendoza.html">Mendoza</a></li>
+                            <li><a href="../paquetes/bariloche.html">Bariloche</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../adondeir.html">A DONDE IR</a>
+                        <i onClick="mostrarSubCategoriasAdndIr()" id="flecha3"
+                            class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                        <ul class="adondeir-sub-menu sub-menu">
+                            <li><a href="../adondeir/quebrada.html">Quebrada</a></li>
+                            <li><a href="../adondeir/mocona.html">Saltos Del Moconá</a></li>
+                            <li><a href="../adondeir/aconcagua.html">Aconcagua</a></li>
+                            <li><a href="../adondeir/huapi.html">Lago Nahuel Huapi</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../actividades.html">ACTIVIDADES</a>
+                        <i onClick="mostrarSubCategoriasAct()" id="flecha4"
+                            class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                        <ul class="actividades-sub-menu sub-menu">
+                            <li><a href="../actividades/buceo.html">Buceo</a></li>
+                            <li><a href="../actividades/parquestematicos.html">Parques temáticos</a></li>
+                            <li><a href="../actividades/senderismo.html">Senderismos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="buscador">
+                <i onClick="buscadorAbrir()" class='bx bx-search'></i>
+                <div class="icono-buscador">
+                    <input id="cuadrobusqueda" type="search" placeholder="Buscar aqui..." maxlength="50" required>
+                    <button id="buscar" type="submit" name="buscar"><i id="ic-buscar" class='bx bx-search'></i></button>
+                </div>
+            </form>
+        </nav>
+    </header>
+</div>
+
+<footer class="footer">
+    <section class="capa_principal">
+        <section class="primera_capa">
+            <section id="seccion_logo">
+                <img src="../imagenes/logo.png" alt="Logo Turismo Arg">
+            </section>
+
+            <section id="seccion_texto">
+                <section id="seccion_enlaces">
+                    <ul id="ulenlaces">
+                        <li><a href="../quienesomos.html"> ¿Quienes somos? </a></li>
+                        <li><a href="../contacto.html"> Contacto </a></li>
+                        <li><a href="../preguntasfrecuentes.html"> Preguntas Frecuentes </a></li>
+                    </ul>
+                </section>
+
+                <section class="seccion_info">
+                    <p class="nombre_pagina_footer">Turismo Arg</p>
+                    <p>2023 © Turismo Arg. Todos los derechos reservados.</p>
+                </section>
+            </section>
+
+            <section id="iconos">
+                <div class="twitter">
+                    <a href="https://twitter.com/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="youtube">
+                    <a href="https://www.youtube.com/channel/">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="instagram">
+                    <a href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="rss">
+                    <a href="mailto:turismoarg@gmail.com?Subject=Interesado%20en%20el%20curso"><i
+                            class="fas fa-rss"></i></a>
+                </div>
+            </section>
+        </section>
+
+        <section class="tercera_capa">
+            <img src="../imagenes/footer/argentinalogo.png" alt="Logo Argentina">
+            <img src="../imagenes/footer/Minturismoarg.png" alt="Ministerio de Turismo">
+            <img src="../imagenes/footer/bandeira-argentina-flag.png" alt="Bandera Argentina">
+        </section>
+    </section>
+</footer>
