@@ -8,6 +8,7 @@ body{
   margin: 40px;
   background-color: #FBFCFD;
   font-family: "LPBentonSans";
+  justify-content: center;
 }
 
 h1 {
@@ -27,6 +28,8 @@ hr {
 em {
   font-weight: bold;
 }
+
+
 
 /***************************************** Header *****************************************/
 
@@ -161,7 +164,9 @@ em {
 .header1 .barra_navegacion .menu li:hover .destinos-sub-menu,
 .header1 .barra_navegacion .menu li:hover .paquetes-sub-menu,
 .header1 .barra_navegacion .menu li:hover .adondeir-sub-menu,
-.header1 .barra_navegacion .menu li:hover .actividades-sub-menu{
+.header1 .barra_navegacion .menu li:hover .actividades-sub-menu
+.header1 .barra_navegacion .menu li:hover .clima-sub-menu
+{
   display: block;
 }
 .barra_navegacion .menu li .sub-menu li{
@@ -284,6 +289,90 @@ em {
 
 
 /******************************** Páginas principales ************************************/
+
+/*Clima*/
+.card {
+  background: #000000d0;
+  color: white;
+  padding: 1em;
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  display: grid;
+
+
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading:after {
+  visibility: visible;
+  content: "Cargando...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+
+
+/*Fin del Clima*/
+
 
 /* Video Presentacion */
 
@@ -1715,14 +1804,16 @@ input[type=submit]:hover {
   .header1 .barra_navegacion .menu li:hover .destinos-sub-menu,
   .header1 .barra_navegacion .menu li:hover .paquetes-sub-menu,
   .header1 .barra_navegacion .menu li:hover .adondeir-sub-menu,
-  .header1 .barra_navegacion .menu li:hover .actividades-sub-menu{
+  .header1 .barra_navegacion .menu li:hover .actividades-sub-menu,
+  .header1 .barra_navegacion .menu li:hover .clima-sub-menu{
       display: none;
   }
     
   .header1 .barra_navegacion .menu-hamburguesa.show1 .menu li .destinos-sub-menu,
   .header1 .barra_navegacion .menu-hamburguesa.show2 .menu li .paquetes-sub-menu,
   .header1 .barra_navegacion .menu-hamburguesa.show3 .menu li .adondeir-sub-menu,
-  .header1 .barra_navegacion .menu-hamburguesa.show4 .menu li .actividades-sub-menu{
+  .header1 .barra_navegacion .menu-hamburguesa.show4 .menu li .actividades-sub-menu,
+  .header1 .barra_navegacion .menu-hamburguesa.show4 .menu li .clima-sub-menu{
         display: block;
   }
 
