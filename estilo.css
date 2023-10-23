@@ -46,7 +46,7 @@ em {
   left: 0;
   width: 100%;
   z-index: 99;
-  
+
 }
 .header1 .barra_navegacion{
   box-sizing: border-box;
@@ -456,7 +456,7 @@ h1.temp {
   margin: auto;
 }
 
-.contenedor-grid{ 
+.contenedor-grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 300px;
@@ -470,7 +470,7 @@ h1.temp {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 300px;
-  grid-gap: 1px; 
+  grid-gap: 1px;
   margin-top: 6%;
 }
 
@@ -544,7 +544,7 @@ h1.temp {
   width: 32%;
   border-radius:57%;
   height: auto;
-} 
+}
 
 
 /*********************************** Fin de Páginas principales ************************************/
@@ -612,7 +612,7 @@ footer {
   display: flex;
   flex-direction: initial;
   align-items: center;
-  justify-content:center; 
+  justify-content:center;
 }
 
 
@@ -689,7 +689,7 @@ ul.migasdepan li {
   display: inline;
   font-size: 1.125em;
 }
-  
+
 ul.migasdepan li+li:before {
   padding: 8px;
   color: #eee;
@@ -733,7 +733,7 @@ ul.migasdepan li a:focus {
 
 
 /*** Título de las páginas principales  ***/
-  
+
 .catras {
   background-image: url(./imagenes/index/hero.jpg);
   background-size: cover;
@@ -764,23 +764,23 @@ ul.migasdepan li a:focus {
   }
   @keyframes animate
   {
-    0% 
+    0%
     {
       background-position: 0% 100% ;
     }
-    50% 
+    50%
     {
       background-position: 100% 0%;
     }
-    100% 
+    100%
     {
       background-position: 0% 100%;
     }
   }
-  
-   
+
+
   /*** Enlaces a categorías ***/
- 
+
   .nnav {
     display: flex;
     flex-direction:column;
@@ -803,17 +803,17 @@ ul.migasdepan li a:focus {
     justify-content: center;
     width: 100%;
   }
-  
+
   .cenlaces .menu2 {
     margin-left: -2%;
   }
 
-  .cenlaces .menu2 li { 
+  .cenlaces .menu2 li {
     display: inline-table;
     padding: 7px;
   }
 
-  .cenlaces .menu2 li a{ 
+  .cenlaces .menu2 li a{
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -855,18 +855,18 @@ ul.migasdepan li a:focus {
     margin-top: 6.5%;
     margin-bottom: 2%;
   }
-    
+
   .slider {
     display: flex;
     width: 500%;
     height: 400px;
     margin-left: -100%;
   }
-    
+
   .seccion-slider {
     width: 100%;
   }
-    
+
   .seccion-slider h3 {
     position: absolute;
     padding: 10px;
@@ -880,15 +880,15 @@ ul.migasdepan li a:focus {
     width:auto;
     text-align: center;
   }
-    
-  
+
+
   .slider-imagen {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-    
+
   .boton-slider {
     position: absolute;
     width: 40px;
@@ -903,11 +903,11 @@ ul.migasdepan li a:focus {
     border-radius: 50%;
     cursor: pointer;
   }
-    
+
   .boton-slider:hover {
     background: #fff;
   }
-    
+
   .boton-izquierdo {
     left: 10px;
   }
@@ -921,7 +921,7 @@ ul.migasdepan li a:focus {
     margin-left: 3px;
     margin-top: 2px;
   }
-      
+
   .boton-derecho {
     right: 10px;
   }
@@ -934,7 +934,7 @@ ul.migasdepan li a:focus {
     padding-right: 40px;
     padding-left:40px;
   }
-  
+
   .presentacion_categoria1 p {
     font-size: 1.2em;
     line-height: normal;
@@ -952,7 +952,7 @@ ul.migasdepan li a:focus {
     align-items: center;
     justify-content:center;
   }
-  
+
 
   .img_presentacion_cat1, .img_presentacion_cat_grande1 {
     width: 270px; height: 270px;
@@ -964,13 +964,13 @@ ul.migasdepan li a:focus {
   /********* Parte de abajo de las categorías (mapa y enlaces) *********/
 
   .contenedor_int{
-    display: flex; 
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 100px;
     margin-left: 5%;
     margin-top: 5%;
   }
-  
+
   .masinfo p{
     width: 100%;
   }
@@ -987,7 +987,7 @@ ul.migasdepan li a:focus {
   .h4enlaces {
     font-size: 1.5em;
     font-weight: bold;
-    
+
   }
 
   .penlaces {
@@ -1004,7 +1004,7 @@ ul.migasdepan li a:focus {
     margin: 10% auto;
     width: 100%;
     height: 460px;
-  } 
+  }
 
   .contenedor {
     margin: 2%;
@@ -1012,36 +1012,36 @@ ul.migasdepan li a:focus {
   }
 
   .masinfo {
-    width: 45%;  
+    width: 45%;
   }
-  
+
   /* Parte de abajo: compartir */
     .seccion_compartir {
       margin-left: 5%;
     }
-    
+
     .hrenlacescompartir {
       width: 30%;
       margin-right: 70%;
     }
-  
-  
+
+
     #visible_a {
       height: 32px;
       width: 32px;
       display:inline-block;
     }
-    
-    
+
+
     #a2apage_mini_services {
       display: none;
     }
-  
+
     #visible_a:hover #a2apage_mini_services{
       display:grid;
       grid-template-columns: repeat(2,1fr);
     }
-  
+
     .a2a_i {
       display: block;
       float: left;
@@ -1052,30 +1052,30 @@ ul.migasdepan li a:focus {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      
+
       text-decoration: none;
       background-color: #fff;
       height: auto;
     }
-  
+
     #a2apage_mini_services {
       border-radius: 6px;
       direction: ltr;
       background: #FFF;
-      font-size: 16px; 
+      font-size: 16px;
       color: #000;
       line-height: 12px;
       border: 1px solid #CCC;
       vertical-align: baseline;
       overflow: hidden;
-      
+
       box-sizing: content-box;
       float: none;
       margin: 0;
       padding: 0;
       position: static;
       height: auto;
-      
+
       touch-action: manipulation;
       outline: 0;
       min-width: 200px;
@@ -1083,11 +1083,11 @@ ul.migasdepan li a:focus {
       width: 300px;
       z-index: 9999997;
     }
-  
+
     .a2a_i:hover {
       background-color: #CCC;
     }
-  
+
     .a2a_i img {
       display: inline-block;
       overflow: hidden;
@@ -1140,7 +1140,7 @@ ul.migasdepan li a:focus {
     border: 2px solid #5D7893;
     border-radius: 0.40em;
     background-color: #9AB3CC;
-    padding: 5px; 
+    padding: 5px;
     color: white;
   }
 
@@ -1151,7 +1151,7 @@ ul.migasdepan li a:focus {
     height: 13px;
     margin-left: 7px;
   }
-  
+
   .iconoscu {
     width: 15px;
     height: 13px;
@@ -1175,7 +1175,7 @@ ul.migasdepan li a:focus {
 
 #check_icon {
   height: 20px;
-  float: left; 
+  float: left;
   margin: 0 10px 6px 0;
 }
 
@@ -1186,11 +1186,11 @@ ul.migasdepan li a:focus {
   padding: 20px 100px;
 }
 
-input[type=text], select, textarea, input[type=email]{ 
+input[type=text], select, textarea, input[type=email]{
   width: 95%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px; 
+  border-radius: 4px;
   resize: vertical;
 }
 
@@ -1218,7 +1218,7 @@ form #texto-span {
 input[type=submit] {
   background-color: #444644;
   color: white;
-  padding: 12px 20px;  
+  padding: 12px 20px;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -1253,11 +1253,11 @@ input[type=submit]:hover {
 		border-color: #2ecc71;
 	}
 
-	
+
 	.form-control.error input, .form-control.error select,  .form-control.error textarea {
 		border-color: #e74c3c;
 	}
-	
+
 	.form-control i {
 		visibility: hidden;
 		position:absolute;
@@ -1275,7 +1275,7 @@ input[type=submit]:hover {
 	}
 
 	.form-control.error i.fa-exclamation-circle {
-		color: #e74c3c;	 
+		color: #e74c3c;
     visibility: visible;
 	}
 
@@ -1498,7 +1498,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 1024px) {
-  
+
   .mapa1, .cajainfo, .contenedor, .contenedor_int, .masinfo, .bloque_imagenes{
     margin: auto;
     width: 100%;
@@ -1516,7 +1516,7 @@ input[type=submit]:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .cajainfopt {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1536,7 +1536,7 @@ input[type=submit]:hover {
     width: 50%;
     margin-right: 50%;
   }
-  
+
   .mapa1 {
     margin-top: 1%;
   }
@@ -1544,7 +1544,7 @@ input[type=submit]:hover {
   .mapa1 iframe {
     margin: 10% auto;
     width: 85%;
-  } 
+  }
 
   .bloque_imagenes img{
    width: 100%;
@@ -1555,7 +1555,7 @@ input[type=submit]:hover {
     border-radius: 0.3em;
     margin: 5px;
   }
-  
+
   .presentacion_categoria1 p {
     font-size: 1.1em;
   }
@@ -1603,7 +1603,7 @@ input[type=submit]:hover {
 
   .img, .img2, .img3 {
     height: 72%;
-    
+
   }
 
   .contenedor-grid div p{
@@ -1617,18 +1617,18 @@ input[type=submit]:hover {
     font-size: 1.1em;
     width: 80%;
     left: 10%;
-    top: 20%; 
+    top: 20%;
   }
 
   .contenedor-grid3 div p{
     font-size: 0.75em;
     width: 80%;
     left: 10%;
-    top: 20%; 
+    top: 20%;
   }
 
   .contenedor-grid3 {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .contenedor-grid div .img,
@@ -1636,7 +1636,7 @@ input[type=submit]:hover {
   .contenedor-grid3 div .img3 {
     border-radius: 0.3em;
   }
-  
+
   .form-control i {
     top: 60;
 		right: 15px;
@@ -1648,7 +1648,7 @@ input[type=submit]:hover {
 
   .mapa1 h3 {
     margin-left: 7%;
-    
+
   }
 
   .contenedor_preguntas {
@@ -1681,7 +1681,7 @@ input[type=submit]:hover {
   }
 
   .presentacion p {
-    
+
     font-size: 1em;
   }
 
@@ -1734,15 +1734,15 @@ input[type=submit]:hover {
     justify-content: center;
     width: 80%;
   }
-   
+
   .contenedor-grid div p,
   .contenedor-grid2 div p,
   .contenedor-grid3 div p{
     font-size: 1.1em;
   }
-  
 
-  .cenlaces .menu2 li a{ 
+
+  .cenlaces .menu2 li a{
     font-size: 1em;
   }
 
@@ -1778,7 +1778,7 @@ input[type=submit]:hover {
     align-items: center;
     justify-content: space-between;
   }
-   
+
   .header1 .barra_navegacion .menu li a {
     color: #fff;
   }
@@ -1831,7 +1831,7 @@ input[type=submit]:hover {
   .header1 .barra_navegacion .menu li:hover .clima-sub-menu{
       display: none;
   }
-    
+
   .header1 .barra_navegacion .menu-hamburguesa.show1 .menu li .destinos-sub-menu,
   .header1 .barra_navegacion .menu-hamburguesa.show2 .menu li .paquetes-sub-menu,
   .header1 .barra_navegacion .menu-hamburguesa.show3 .menu li .adondeir-sub-menu,
@@ -1848,12 +1848,12 @@ input[type=submit]:hover {
     color:#F0CC0D;
     font-size: 30px;
   }
-  
+
   .contenedor-slider {
     margin-top: 8%;
     margin-bottom: 4%;
   }
-  
+
   .slider {
     height: 300px;
   }
@@ -1872,7 +1872,7 @@ input[type=submit]:hover {
   padding: 20px 80px;
  }
 
- input[type=text], select, textarea, input[type=email]{ 
+ input[type=text], select, textarea, input[type=email]{
   width: 100%;
   padding: 10px;
   }
@@ -1898,13 +1898,13 @@ input[type=submit]:hover {
   }
 
   input[type=submit] {
-    padding: 10px 16px;  
+    padding: 10px 16px;
     font-size: 0.7em;
     margin:auto;
     display: block;
   }
 
- 
+
 }
 
 @media screen and (max-width: 715px) {
@@ -1931,7 +1931,7 @@ input[type=submit]:hover {
    font-size: 1em;
   }
 
-  .cenlaces .menu2 li a{ 
+  .cenlaces .menu2 li a{
     font-size: 0.9em;
   }
 
@@ -1957,7 +1957,7 @@ input[type=submit]:hover {
     width: 90%;
     left:8%;
   }
-  
+
   .img_presentacion_cat1, .img_presentacion_cat_grande1 {
     width: 300px; height: 300px;
     border-radius: 0.3em;
@@ -1968,7 +1968,7 @@ input[type=submit]:hover {
   }
 
   .buscador input {
-    font-size: 0.90em; 
+    font-size: 0.90em;
   }
 
   .contenedor-slider {
@@ -2001,15 +2001,15 @@ input[type=submit]:hover {
     margin: auto 35px;
     padding: 20px 60px;
   }
-  
-  input[type=text], select, textarea, input[type=email]{ 
+
+  input[type=text], select, textarea, input[type=email]{
     padding: 7px;
   }
-  
+
   select {
     font-size: 0.65em;
   }
-  
+
   textarea {
     height: 145px;
   }
@@ -2041,7 +2041,7 @@ input[type=submit]:hover {
    font-size: 0.95em;
   }
 
-  .cenlaces .menu2 li a{ 
+  .cenlaces .menu2 li a{
     font-size: 0.75em;
   }
 
@@ -2099,7 +2099,7 @@ input[type=submit]:hover {
    font-size: 0.85em;
   }
 
-  .cenlaces .menu2 li a{ 
+  .cenlaces .menu2 li a{
     font-size: 0.65em;
   }
 
@@ -2119,7 +2119,7 @@ input[type=submit]:hover {
     width: 200px;
     height: 50px;
   }
-  
+
   .barra_navegacion .buscador .icono-buscador input {
     width: 135px;
     height: 35px;
@@ -2132,7 +2132,7 @@ input[type=submit]:hover {
     left:73%;
     top: 16%;
   }
-  
+
   .contenedor-slider{
     margin-top: 10%;
     margin-bottom: 15%;
@@ -2191,15 +2191,21 @@ input[type=submit]:hover {
     margin: auto 25px;
     padding: 20px 50px;
   }
-  
-  input[type=text], select, textarea, input[type=email]{ 
+  .card {
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 290px;
+  }
+
+  input[type=text], select, textarea, input[type=email]{
     padding: 5px;
   }
-  
+
   select {
     font-size: 0.6em;
   }
-  
+
   textarea {
     height: 120px;
   }
@@ -2230,7 +2236,7 @@ input[type=submit]:hover {
     font-size: 1.1em;
   }
 
-  .cenlaces .menu2 li a{ 
+  .cenlaces .menu2 li a{
     font-size: 0.6em;
   }
 
@@ -2245,7 +2251,7 @@ input[type=submit]:hover {
 
   #hrpagn {
     width: 87%;
-  } 
+  }
 
   .primera_capa #seccion_logo img{
     width: 50px;
@@ -2272,7 +2278,7 @@ input[type=submit]:hover {
   .primera_capa #seccion_texto p {
     font-size: 0.5em;
   }
-  
+
 }
 
 @media screen and (max-width: 430px){
@@ -2298,10 +2304,10 @@ input[type=submit]:hover {
     object-fit:initial;
   }
 
-  .cenlaces .menu2 li a{ 
+  .cenlaces .menu2 li a{
     font-size: 0.55em;
   }
-  
+
   .presentacion_categoria1 p{
     font-size: 0.8em;
   }
@@ -2334,16 +2340,16 @@ input[type=submit]:hover {
     margin: auto 10px;
     padding: 10px 20px;
   }
-  
-  input[type=text], select, textarea, input[type=email]{ 
+
+  input[type=text], select, textarea, input[type=email]{
     padding: 2px;
     width: 100%;
   }
-  
+
   select {
     font-size: 0.55em;
   }
-  
+
   textarea {
     height: 110px;
   }
@@ -2399,13 +2405,13 @@ input[type=submit]:hover {
     font-size: 1.85rem;
   }
 
-  .cenlaces .menu2 li a{ 
+  .cenlaces .menu2 li a{
     font-size: 0.5em;
   }
 
   .header1 .barra_navegacionnn .menu-hamburguesa{
      max-width: 100%;
-  } 
+  }
 
   .presentacion_categoria1 p{
     font-size: 0.75em;
@@ -2414,7 +2420,7 @@ input[type=submit]:hover {
   .presentacion p, .presentacion_gc_insider p {
     font-size: 0.8em;
   }
- 
+
 }
 
 @media screen and (max-width: 330px) {
@@ -2430,15 +2436,15 @@ input[type=submit]:hover {
     padding: 2px;
   }
 
-  input[type=text], select, textarea, input[type=email]{ 
+  input[type=text], select, textarea, input[type=email]{
     padding: 2px;
     width: 92%;
   }
-  
+
   select {
     font-size: 0.5em;
   }
-  
+
   textarea {
     height: 100px;
   }
