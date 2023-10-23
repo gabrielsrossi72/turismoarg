@@ -30,7 +30,6 @@ em {
 }
 
 
-
 /***************************************** Header *****************************************/
 
 .fondo {
@@ -164,7 +163,7 @@ em {
 .header1 .barra_navegacion .menu li:hover .destinos-sub-menu,
 .header1 .barra_navegacion .menu li:hover .paquetes-sub-menu,
 .header1 .barra_navegacion .menu li:hover .adondeir-sub-menu,
-.header1 .barra_navegacion .menu li:hover .actividades-sub-menu
+.header1 .barra_navegacion .menu li:hover .actividades-sub-menu,
 .header1 .barra_navegacion .menu li:hover .clima-sub-menu
 {
   display: block;
@@ -300,8 +299,6 @@ em {
   height: 400px;
   margin: 0 auto;
   display: grid;
-
-
 }
 
 .search {
@@ -755,6 +752,32 @@ ul.migasdepan li a:focus {
     color: #eee;
     margin: auto;
   }
+  .nombre_pagina2{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right , #f00,#ff0,#0ff,#0f0,#00f);
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+    background-size: 1000%;
+  }
+  @keyframes animate
+  {
+    0% 
+    {
+      background-position: 0% 100% ;
+    }
+    50% 
+    {
+      background-position: 100% 0%;
+    }
+    100% 
+    {
+      background-position: 0% 100%;
+    }
+  }
+  
    
   /*** Enlaces a categorías ***/
  
