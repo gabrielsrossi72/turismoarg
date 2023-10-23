@@ -2175,9 +2175,9 @@ input[type=submit]:hover {
   }
 }
 
-/*********** Estilos para móviles (MediaQuery para móviles [500px-220px]) ***********/
+/*********** Estilos para móviles (MediaQuery para móviles [640px-220px]) ***********/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 
   body {
     margin: 28px;
